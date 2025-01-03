@@ -1,0 +1,31 @@
+{
+  "name": "google-oauth2",
+  "version": "1.0.0",
+  "description": "Implement Google OAuth2 Using Passportjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anik-64/Google-OAuth2.git"
+  },
+  "keywords": [
+    "Google",
+    "OAuth"
+  ],
+  "author": "Anik Majumder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anik-64/Google-OAuth2/issues"
+  },
+  "homepage": "https://github.com/Anik-64/Google-OAuth2#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
